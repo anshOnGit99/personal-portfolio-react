@@ -96,15 +96,15 @@ const About = () => {
                     <h3 className="text-xl font-semibold mb-6">Quick Stats</h3>
                     <div className="grid grid-cols-2 gap-6">
                       <div className="text-center">
-                        <div className="text-3xl font-bold text-primary mb-2">1+</div>
+                        <div className="text-3xl font-bold text-primary mb-2">3+</div>
                         <div className="text-sm text-muted-foreground">Years Experience</div>
                       </div>
                       <div className="text-center">
-                        <div className="text-3xl font-bold text-accent mb-2">10+</div>
+                        <div className="text-3xl font-bold text-accent mb-2">5+</div>
                         <div className="text-sm text-muted-foreground">Projects Built</div>
                       </div>
                       <div className="text-center">
-                        <div className="text-3xl font-bold text-tertiary mb-2">15+</div>
+                        <div className="text-3xl font-bold text-tertiary mb-2">10+</div>
                         <div className="text-sm text-muted-foreground">Technologies</div>
                       </div>
                       <div className="text-center">

@@ -51,12 +51,13 @@ export const skills = {
       name: "Frontend Development",
       icon: Globe,
       skills: [
-        { name: "React", level: 90, category: "Frontend" },
+        { name: "Angular", level: 90, category: "Frontend" },
+        { name: "React", level: 80, category: "Frontend" },
         { name: "TypeScript", level: 85, category: "Frontend" },
         { name: "JavaScript", level: 90, category: "Frontend" },
         { name: "HTML/CSS", level: 95, category: "Frontend" },
         { name: "Tailwind CSS", level: 85, category: "Frontend" },
-        { name: "Next.js", level: 80, category: "Frontend" }
+        { name: "Bootstrap", level: 90, category: "Frontend" }
       ]
     },
     {
@@ -75,25 +76,25 @@ export const skills = {
       skills: [
         { name: "MongoDB", level: 80, category: "Database" },
         { name: "MySQL", level: 75, category: "Database" },
-        { name: "AWS", level: 70, category: "Cloud" },
-        { name: "Firebase", level: 75, category: "Cloud" }
+        // { name: "AWS", level: 70, category: "Cloud" },
+        // { name: "Firebase", level: 75, category: "Cloud" }
       ]
     },
-    {
-      name: "Mobile Development",
-      icon: Smartphone, 
-      skills: [
-        { name: "React Native", level: 75, category: "Mobile" },
-        { name: "Flutter", level: 70, category: "Mobile" },
-        { name: "Android", level: 65, category: "Mobile" }
-      ]
-    },
+    // {
+    //   name: "Mobile Development",
+    //   icon: Smartphone, 
+    //   skills: [
+    //     { name: "React Native", level: 75, category: "Mobile" },
+    //     { name: "Flutter", level: 70, category: "Mobile" },
+    //     { name: "Android", level: 65, category: "Mobile" }
+    //   ]
+    // },
     {
       name: "Tools & Others",
       icon: Layers,
       skills: [
         { name: "Git", level: 85, category: "Tools" },
-        { name: "Docker", level: 70, category: "Tools" },
+        // { name: "Docker", level: 70, category: "Tools" },
         { name: "Figma", level: 75, category: "Design" },
         { name: "Postman", level: 80, category: "Tools" }
       ]
@@ -104,23 +105,21 @@ export const skills = {
 export const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce platform with modern UI/UX, secure payment integration, and real-time inventory management.",
-    longDescription: "Built a comprehensive e-commerce solution featuring user authentication, product catalog, shopping cart, order management, and payment processing. Implemented advanced features like product recommendations, real-time notifications, and analytics dashboard.",
+    title: "Crypto-Currency-Tracker-Angular",
+    description: "The Crypto Currency Tracker is an Angular-based web application that allows users to track the latest updates and trends in the cryptocurrency market.",
+    longDescription: "The application provides real-time data on various cryptocurrencies, including their current prices, market caps, and price changes over the last 24 hours. Users can also view detailed information about individual cryptocurrencies, including historical price trends over different time periods (24 hours, 30 days, 90 days, and 1 year).The application integrates with the CoinGecko API to fetch real-time cryptocurrency data and uses Angular Material for a sleek and responsive user interface. Users can switch between different currencies (INR and USD) to view the data in their preferred currency.",
     image: "/placeholder.svg",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe", "AWS", "Redux"],
+    technologies: ["Angular", "Angular Material", "CoinGecko API", "Chart.js", "RxJS"],
     features: [
-      "User authentication and authorization",
-      "Product catalog with search and filtering",
-      "Shopping cart and checkout process", 
-      "Payment integration with Stripe",
-      "Order tracking and management",
-      "Admin dashboard with analytics"
+      "Real-Time Cryptocurrency Data",
+      "Currency Conversion",
+      "Interactive Charts", 
+      "Search and Filter",
+      "Responsive Design",
     ],
-    github: "https://github.com/anshOnGit99/ecommerce-platform",
-    live: "https://ecommerce-demo.com",
+    github: "https://github.com/anshOnGit99/Crypto-Currency-Tracker-Angular",
     status: "Completed",
-    category: "Full-Stack"
+    category: "Frontend"
   },
   {
     id: 2,
@@ -172,30 +171,15 @@ export const achievements = [
     description: "Won first place for developing an AI-powered solution for employee productivity enhancement"
   },
   {
-    title: "Certified React Developer", 
-    organization: "Meta",
-    date: "2023",
-    description: "Successfully completed advanced React development certification"
+    title: "Certified Azure Administrator Associate (AZ-104)",
+    organization: "Microsoft",
+    date: "2024",
+    description: "Successfully completed Azure administrator associate certification"
   },
   {
-    title: "AWS Cloud Practitioner",
-    organization: "Amazon Web Services",
-    date: "2023", 
-    description: "Certified in AWS cloud services and best practices"
-  }
-];
-
-export const testimonials = [
-  {
-    name: "Sarah Johnson",
-    role: "Senior Developer at TCS",
-    content: "Ansh is an exceptional developer with a keen eye for detail. His problem-solving skills and dedication to quality make him a valuable team member.",
-    avatar: "/placeholder.svg"
-  },
-  {
-    name: "Mike Chen", 
-    role: "Product Manager",
-    content: "Working with Ansh has been a pleasure. He consistently delivers high-quality work and brings innovative solutions to challenging problems.",
-    avatar: "/placeholder.svg"
+    title: "Certified Azure Fundamentals (AZ-900)",
+    organization: "Microsoft",
+    date: "2022-2024", 
+    description: "Certified in Azure Fundamentals"
   }
 ];
